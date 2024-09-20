@@ -1,0 +1,38 @@
+.description {
+    color: white;
+    padding-top: 15rem;
+    width: 100%;
+    text-align: left;
+}
+
+.animate-bounce {
+    animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+        transform: translateY(1%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
+
+img {
+    width: 100%;
+}
+
+.desc {
+    font-size: 3rem;
+}
+
+button {
+    transition: 0.7s ease !important;
+}
+
+button :hover {
+    transform: scale(1.1) !important;
+}
